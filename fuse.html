@@ -27,7 +27,7 @@
     <h3 class="date">2014-04-30</h3>
 </section>
 
-<section id="agenda" class="slide level2">
+<section id="agenda" class="slide level4">
 <h1>Agenda</h1>
 <ul>
 <li>What is a filesystem</li>
@@ -37,7 +37,7 @@
 <li>Interesting Projects depends on FUSE</li>
 </ul>
 </section>
-<section id="what-is-filesystem" class="slide level2">
+<section id="what-is-filesystem" class="slide level4">
 <h1>What is filesystem</h1>
 <ul>
 <li>Ext3/Ext4/XFS</li>
@@ -47,13 +47,13 @@
 <li>procfs/sysfs/debugfs</li>
 </ul>
 </section>
-<section id="what-is-vfs" class="slide level2">
+<section id="what-is-vfs" class="slide level4">
 <h1>What is VFS</h1>
 <figure>
 <img src="files/vfs_relations_static.png" />
 </figure>
 </section>
-<section id="what-is-vfs-1" class="slide level2">
+<section id="what-is-vfs-1" class="slide level4">
 <h1>What is VFS</h1>
 <ul>
 <li>文件系统的抽象接口</li>
@@ -61,7 +61,7 @@
 <li>其他文件系统需要注册到 VFS 才能使用</li>
 </ul>
 </section>
-<section id="what-is-fuse" class="slide level2">
+<section id="what-is-fuse" class="slide level4">
 <h1>What is FUSE</h1>
 <ul>
 <li>Filesystem in USErspace</li>
@@ -69,13 +69,13 @@
 <li><em>FUSE使得文件系统的实现放在了用户空间</em></li>
 </ul>
 </section>
-<section id="what-is-fuse---how-it-works" class="slide level2">
+<section id="what-is-fuse---how-it-works" class="slide level4">
 <h1>What is FUSE - How it works</h1>
 <figure>
 <img src="files/fuse_structure.png" />
 </figure>
 </section>
-<section id="demo" class="slide level2">
+<section id="demo" class="slide level4">
 <h1>Demo</h1>
 <ul>
 <li>Hello World demo in C</li>
@@ -83,7 +83,7 @@
 <li>Read webpage from remote in python</li>
 </ul>
 </section>
-<section id="interesting-projects-depends-on-fuse" class="slide level2">
+<section id="interesting-projects-depends-on-fuse" class="slide level4">
 <h1>Interesting Projects depends on FUSE</h1>
 <ul>
 <li>lessfs - data deduplication for less</li>
@@ -92,9 +92,11 @@
 <li>curlftpfs - filesystem to access FTP hosts based on FUSE and cURL</li>
 </ul>
 </section>
-<section id="qa" class="slide level2">
+<section id="qa" class="slide level4">
 <h1>Q&amp;A</h1>
-<p>Thanks</p>
+<ul>
+<li>Thanks</li>
+</ul>
 </section>
     </div>
   </div>
@@ -111,7 +113,7 @@
         progress: true,
         history: true,
         center: true,
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        theme: 'default', // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
         // Optional libraries used to extend on reveal.js
