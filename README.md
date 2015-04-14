@@ -1,2 +1,2 @@
 # Slides
-This is slides that I shared opensource technology with community.
+This folder contains the technology that I shared with opensource community.
